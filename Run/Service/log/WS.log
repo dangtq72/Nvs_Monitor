@@ -1,0 +1,109 @@
+2017-01-13 13:45:55,495 [13680] ERROR Nvs_Wcf.Form1.Form1_Load:{26} - Bat dau khoi tao service ....
+2017-01-13 13:45:55,559 [13680] ERROR Nvs_Wcf.Form1.Form1_Load:{35} - Khoi tao service thanh cong ....
+2017-01-13 13:46:11,107 [13892] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client ARHCHT Subscribe
+2017-01-13 13:46:11,116 [13892] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client ARHCHT UnSubscribe
+2017-01-13 13:46:15,562 [13892] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client DongHT Subscribe
+2017-01-13 13:46:22,261 [13892] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client HCEKPT Subscribe
+2017-01-13 13:46:22,332 [13892] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client HCEKPT UnSubscribe
+2017-01-13 13:46:25,471 [13892] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 13:47:03,803 [13892] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-01-13 13:47:09,188 [9260] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client TAJPTL Subscribe
+2017-01-13 13:47:09,251 [9260] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client TAJPTL UnSubscribe
+2017-01-13 13:47:12,110 [9260] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 13:47:49,407 [13432] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client BIPODD Subscribe
+2017-01-13 13:47:49,469 [13432] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client BIPODD UnSubscribe
+2017-01-13 13:47:49,471 [13432] ERROR Nvs_Wcf.Auto_Push_Data.Broadcast_Session:{39} - System.ServiceModel.CommunicationObjectAbortedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it has been Aborted.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Nvs_Wcf.NvsService_Callback.PushSession(Session_Info _data)
+   at Nvs_Wcf.Auto_Push_Data.Broadcast_Session(Session_Info p_Session_Info) in E:\Working\Nvs_Monitor\Nvs_Wcf\Business\Auto_Push_Data.cs:line 34
+2017-01-13 13:47:53,437 [13432] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 13:47:58,275 [13432] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-01-13 13:48:07,093 [2872] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client IPENSP Subscribe
+2017-01-13 13:48:07,155 [2872] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client IPENSP UnSubscribe
+2017-01-13 13:48:09,984 [2872] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 13:51:07,317 [11048] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client DongHT Subscribe
+2017-01-13 13:52:06,483 [13092] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client DongHT Subscribe
+2017-01-13 13:52:18,646 [3208] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-01-13 13:52:26,932 [11556] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client OSPBPT Subscribe
+2017-01-13 13:52:26,995 [11556] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client OSPBPT UnSubscribe
+2017-01-13 13:52:30,346 [11556] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 13:58:24,254 [12964] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client JHLFIC Subscribe
+2017-01-13 13:58:24,322 [12964] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client JHLFIC UnSubscribe
+2017-01-13 13:58:24,323 [12964] ERROR Nvs_Wcf.Auto_Push_Data.Broadcast_Session:{39} - System.ServiceModel.CommunicationObjectAbortedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it has been Aborted.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Nvs_Wcf.NvsService_Callback.PushSession(Session_Info _data)
+   at Nvs_Wcf.Auto_Push_Data.Broadcast_Session(Session_Info p_Session_Info) in E:\Working\Nvs_Monitor\Nvs_Wcf\Business\Auto_Push_Data.cs:line 34
+2017-01-13 13:58:33,054 [12964] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 14:00:36,437 [13456] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-01-13 14:00:42,617 [13456] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client LIVCGI Subscribe
+2017-01-13 14:00:42,680 [13456] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client LIVCGI UnSubscribe
+2017-01-13 14:00:46,971 [13456] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 14:03:56,842 [13784] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client EBKMRR Subscribe
+2017-01-13 14:03:56,943 [13784] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client EBKMRR UnSubscribe
+2017-01-13 14:03:56,945 [13784] ERROR Nvs_Wcf.Auto_Push_Data.Broadcast_Session:{39} - System.ServiceModel.CommunicationObjectAbortedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it has been Aborted.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Nvs_Wcf.NvsService_Callback.PushSession(Session_Info _data)
+   at Nvs_Wcf.Auto_Push_Data.Broadcast_Session(Session_Info p_Session_Info) in E:\Working\Nvs_Monitor\Nvs_Wcf\Business\Auto_Push_Data.cs:line 34
+2017-01-13 14:03:59,826 [13784] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 14:04:20,110 [12872] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client AUSVKD Subscribe
+2017-01-13 14:04:20,183 [12872] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client AUSVKD UnSubscribe
+2017-01-13 14:04:20,184 [12872] ERROR Nvs_Wcf.Auto_Push_Data.Broadcast_Session:{39} - System.ServiceModel.CommunicationObjectAbortedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it has been Aborted.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Nvs_Wcf.NvsService_Callback.PushSession(Session_Info _data)
+   at Nvs_Wcf.Auto_Push_Data.Broadcast_Session(Session_Info p_Session_Info) in E:\Working\Nvs_Monitor\Nvs_Wcf\Business\Auto_Push_Data.cs:line 34
+2017-01-13 14:04:22,900 [12872] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 14:04:47,450 [12872] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-01-13 14:04:50,121 [12872] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client DongHT UnSubscribe
+2017-01-13 14:06:44,699 [13180] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client NOEFEB Subscribe
+2017-01-13 14:06:44,702 [13180] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client NOEFEB UnSubscribe
+2017-01-13 14:06:47,737 [13180] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-01-13 14:07:59,935 [13180] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-09-23 09:53:24,222 [1] ERROR Nvs_Wcf.Form1.Form1_Load:{26} - Bat dau khoi tao service ....
+2017-09-23 09:53:24,397 [1] ERROR Nvs_Wcf.Form1.Form1_Load:{35} - Khoi tao service thanh cong ....
+2017-09-23 09:53:39,952 [14] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client LGBDIU Subscribe
+2017-09-23 09:53:39,976 [14] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client LGBDIU UnSubscribe
+2017-09-23 09:53:58,495 [14] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client Lucy Subscribe
+2017-09-23 09:54:16,693 [18] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client OJTEKO Subscribe
+2017-09-23 09:54:16,697 [18] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client OJTEKO UnSubscribe
+2017-09-23 09:54:23,303 [18] ERROR Nvs_Wcf.NvsService.Subscribe:{62} - Client DongHT Subscribe
+2017-09-23 09:55:05,975 [18] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client DongHT UnSubscribe
+2017-09-23 09:55:08,003 [12] ERROR Nvs_Wcf.NvsService.UnSubscribe:{82} - Client Lucy UnSubscribe
+2017-12-27 09:21:09,515 [10] ERROR Nvs_Wcf.Form1.Form1_Load:{26} - Bat dau khoi tao service ....
+2017-12-27 09:21:28,531 [10] ERROR Nvs_Wcf.Form1.Form1_Load:{26} - Bat dau khoi tao service ....
+2017-12-27 09:21:45,473 [10] ERROR Nvs_Wcf.Form1.Form1_Load:{26} - Bat dau khoi tao service ....
